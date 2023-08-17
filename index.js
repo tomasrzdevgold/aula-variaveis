@@ -46,8 +46,21 @@ let pergunta3 = prompt("VOCE ESTA NA ESCOLA? só responder com sim ou nao")
 
 console.log ("VOCE ESTA USANDO ROUPA AZUL HOJE?", pergunta1)
 console.log ("VOCE ESTA DE PE?", pergunta2)
-console.log ("VOCE ESTA NA ESCOLA?", pergunta3)
+console.log ("VOCE ESTA NA ESCOLA?", pergunta3) 
 
 //exercicio 3 codigo
 
+let a = 10
+let b = 25
+let c = 0
+
+c = a
+a = b
+b = c
+
+
+console.log (a,b)
+
+console.log ("agora o valor de a é",a)
+console.log("agora o valor de b é",b)
 
